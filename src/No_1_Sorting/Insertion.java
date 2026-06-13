@@ -1,9 +1,16 @@
 package No_1_Sorting;
 
 public class Insertion {
-    // public int[] insertionSort(int[] nums) {
-    //     for (int i = 1 ;i<nums.length-1;i++){
-            
-    //     }
-    // }
+    public int[] insertionSort(int[] nums) {
+        for (int i = 0 ;i<=nums.length-1;i++){
+            int j = i;
+            while(j > 0 && nums[j-1] > nums[j]){
+                int temp = nums[j-1];
+                nums[j-1]=nums[j];
+                nums[j]=temp;
+                j--;
+            }
+        }
+        return nums;
+    }
 }
