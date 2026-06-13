@@ -13,4 +13,6 @@ public class Insertion {
         }
         return nums;
     }
+    public static void main (String[]argd){
+        int []nums={7, 4, 1, 5, 3};
 }
