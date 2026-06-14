@@ -12,7 +12,6 @@ public class Selection {
             int temp = nums[smallest];
             nums[smallest]=nums[i];
             nums[i]=temp;
-
         }
         return nums;
     }
