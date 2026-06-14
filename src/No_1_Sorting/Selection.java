@@ -15,7 +15,6 @@ public class Selection {
         }
         return nums;
     }
-
     public static void main(String[] args) {
         int []nums = {7 ,4 ,1 ,5 ,3};
         int[] result = selectionSort(nums);
